@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    line-height:1.6;
+    background:#f8f9fa;
+
+}
+
+
+/* ENCABEZADO */
+
+header{
+
+    background:#0b1f3a;
+    color:white;
+    padding:30px 0;
+
+}
+
+
+.contenedor{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+
+}
+
+.logo{
+
+    width:180px;
+    margin-bottom:15px;
+
+}
+
+
+header h1{
+
+    font-size:40px;
+    margin-bottom:10px;
+
+}
+
+
+header p{
+
+    font-size:18px;
+
+}
+
+
+
+/* MENU */
+
+nav{
+
+    margin-top:25px;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+
+}
+
+
+nav a:hover{
+
+    color:#00b4d8;
+
+}
+
+
+
+/* SECCION PRINCIPAL */
+
+.principal{
+
+    background:white;
+    text-align:center;
+    padding:70px 20px;
+
+}
+
+
+.principal h2{
+
+    font-size:35px;
+    color:#0b1f3a;
+
+}
+
+
+.principal p{
+
+    max-width:700px;
+    margin:20px auto;
+    font-size:18px;
+
+}
+
+
+
+/* BOTON */
+
+.boton{
+
+    display:inline-block;
+    background:#0077b6;
+    color:white;
+    padding:14px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    margin-top:20px;
+    font-weight:bold;
+
+}
+
+
+.boton:hover{
+
+    background:#023e8a;
+
+}
+
+
+
+
+/* SECCIONES */
+
+section{
+
+    padding:60px 10%;
+    background:white;
+    margin-top:20px;
+
+}
+
+
+section h2{
+
+    text-align:center;
+    color:#0b1f3a;
+    margin-bottom:30px;
+    font-size:30px;
+
+}
+
+
+
+
+/* SERVICIOS */
+
+.tarjetas{
+
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+
+
+.tarjeta{
+
+    background:#f1f5f9;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.tarjeta h3{
+
+    color:#0077b6;
+    margin-bottom:15px;
+
+}
+
+
+
+
+/* LISTAS */
+
+ul{
+
+    max-width:600px;
+    margin:auto;
+
+}
+
+
+li{
+
+    margin:10px;
+
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+
+    background:#0b1f3a;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+
+
+
+
+/* CELULARES */
+
+@media(max-width:768px){
+
+
+nav a{
+
+    display:block;
+    margin:15px;
+
+}
+
+
+.tarjetas{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+}
+
+.formulario{
+
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+
+}
+
+
+.formulario label{
+
+font-weight:bold;
+color:#0b1f3a;
+
+}
+
+
+.formulario input,
+.formulario select,
+.formulario textarea{
+
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:16px;
+
+}
+
+
+.formulario textarea{
+
+height:120px;
+resize:none;
+
+}
+
+
+.formulario button{
+
+background:#0077b6;
+color:white;
+border:none;
+padding:15px;
+border-radius:30px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+
+}
+
+
+.formulario button:hover{
+
+background:#023e8a;
+
+}
+
+.whatsapp{
+
+position:fixed;
+
+width:65px;
+height:65px;
+
+bottom:25px;
+right:25px;
+
+background:#25D366;
+
+color:white;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+font-size:34px;
+
+text-decoration:none;
+
+box-shadow:0 8px 20px rgba(0,0,0,.30);
+
+transition:.3s;
+
+z-index:999;
+
+}
+
+
+.whatsapp:hover{
+
+transform:scale(1.12);
+
+background:#128C7E;
+
+}
